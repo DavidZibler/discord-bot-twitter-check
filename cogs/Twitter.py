@@ -5,7 +5,7 @@ from discord.commands import slash_command
 
 
 # ----------{ Debug class }----------
-class Debug(commands.Cog):
+class Twitter(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
@@ -23,4 +23,4 @@ class Debug(commands.Cog):
 
 # ----------{ Cog export }----------
 def setup(bot):
-    bot.add_cog(Debug(bot))
+    bot.add_cog(Twitter(bot))
